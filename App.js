@@ -1,33 +1,14 @@
-import React, { Fragment } from 'react'
-import { SafeAreaView, StyleSheet, View, Text, StatusBar } from 'react-native'
-import { Button } from 'react-native-elements'
+import React from 'react'
+import { View, Text } from 'react-native'
+import { createAppContainer } from 'react-navigation'
+import { createStackNavigator } from 'react-navigation-stack'
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen'
+import LandingScreen from './app/Landing'
+import MoreInfoScreen from './app/MoreInfo'
 
-const App = () => {
-  return (
-    <Fragment>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView style={styles.container}>
-        <Text>text</Text>
-        <Button raised title="Press me!" />
-      </SafeAreaView>
-    </Fragment>
-  )
-}
-
-const styles = StyleSheet.create({
-  container: {
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: 1,
-  },
+const AppNavigator = createStackNavigator({
+  Landing: { screen: LandingScreen },
+  MoreInfo: { screen: MoreInfoScreen },
 })
 
-export default App
+export default createAppContainer(AppNavigator)
