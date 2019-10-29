@@ -16,8 +16,11 @@ const MoreInfo = ({ navigation }) => {
 
   return (
     <Screen style={{ backgroundColor: bg }}>
-      <Text h2>{header}</Text>
+      <Text h2 testID="headerText">
+        {header}
+      </Text>
       <Button
+        testID="button"
         raised
         type="outline"
         title="Jeg vil endre teksten i headeren bitte"

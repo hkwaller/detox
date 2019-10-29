@@ -9,8 +9,9 @@ const bg = {
   four: '#d79abc',
 }
 
-const NavigationButton = ({ onPress, title, backgroundColor }) => (
+const NavigationButton = ({ onPress, title, backgroundColor, testID }) => (
   <TouchableOpacity
+    testID={testID}
     onPress={onPress}
     style={{
       flex: 1,
@@ -26,6 +27,7 @@ const Landing = ({ navigation }) => {
   return (
     <>
       <NavigationButton
+        testID="buttonOne"
         onPress={() => navigation.push('One', { bg: bg.one })}
         style={styles.listButton}
         backgroundColor={bg.one}
@@ -36,18 +38,21 @@ const Landing = ({ navigation }) => {
         style={styles.listButton}
         backgroundColor={bg.two}
         title="2"
+        testID="buttonTwo"
       />
       <NavigationButton
         onPress={() => navigation.push('Three', { bg: bg.three })}
         style={styles.listButton}
         backgroundColor={bg.three}
         title="3"
+        testID="buttonThree"
       />
       <NavigationButton
         onPress={() => navigation.push('Four', { bg: bg.four })}
         style={styles.listButton}
         backgroundColor={bg.four}
         title="4"
+        testID="buttonFour"
       />
     </>
   )

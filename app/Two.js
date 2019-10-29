@@ -21,21 +21,29 @@ const Two = ({ navigation }) => {
 
   return (
     <Screen style={{ backgroundColor: bg }}>
-      <ScrollView>
-        <Text h3 style={{ marginBottom: 10 }}>
+      <ScrollView testID="scrollView">
+        <Text h3 testID="headerText" style={{ marginBottom: 10 }}>
           Jeg forsvinner nok snart
         </Text>
         {data.map((user, index) => {
-          return <ListItem key={user.id} user={user} index={index} />
+          return (
+            <ListItem
+              key={user.id}
+              user={user}
+              index={index}
+              testID={user.testID}
+            />
+          )
         })}
       </ScrollView>
     </Screen>
   )
 }
 
-const ListItem = ({ user, index }) => {
+const ListItem = ({ user, index, testID }) => {
   return (
     <View
+      testID={testID}
       style={{
         backgroundColor: 'snow',
         alignItems: 'center',

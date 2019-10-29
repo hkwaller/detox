@@ -18,6 +18,7 @@ const Three = ({ navigation }) => {
         {clicks}
       </Text>
       <Button
+        testID="increaseButton"
         type="outline"
         raised
         title="Increase please"
