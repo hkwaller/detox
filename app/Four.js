@@ -11,7 +11,12 @@ const Three = ({ navigation }) => {
 
   return (
     <Screen style={{ backgroundColor: bg }}>
-      <Text h1>{clicks}</Text>
+      <Text h1 style={{ marginBottom: 30, textAlign: 'center' }}>
+        Increase the value
+      </Text>
+      <Text h3 style={{ alignSelf: 'center', marginBottom: 20 }}>
+        {clicks}
+      </Text>
       <Button
         type="outline"
         raised

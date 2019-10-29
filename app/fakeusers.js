@@ -1,6 +1,7 @@
 export default [
   {
     id: 1,
+    testID: '0',
     name: 'Leanne Graham',
     username: 'Bret',
     email: 'Sincere@april.biz',
@@ -24,6 +25,7 @@ export default [
   },
   {
     id: 2,
+    testID: '0',
     name: 'Ervin Howell',
     username: 'Antonette',
     email: 'Shanna@melissa.tv',
@@ -47,6 +49,7 @@ export default [
   },
   {
     id: 3,
+    testID: '0',
     name: 'Clementine Bauch',
     username: 'Samantha',
     email: 'Nathan@yesenia.net',
@@ -70,98 +73,7 @@ export default [
   },
   {
     id: 4,
-    name: 'Patricia Lebsack',
-    username: 'Karianne',
-    email: 'Julianne.OConner@kory.org',
-    address: {
-      street: 'Hoeger Mall',
-      suite: 'Apt. 692',
-      city: 'South Elvis',
-      zipcode: '53919-4257',
-      geo: {
-        lat: '29.4572',
-        lng: '-164.2990',
-      },
-    },
-    phone: '493-170-9623 x156',
-    website: 'kale.biz',
-    company: {
-      name: 'Robel-Corkery',
-      catchPhrase: 'Multi-tiered zero tolerance productivity',
-      bs: 'transition cutting-edge web services',
-    },
-  },
-  {
-    id: 5,
-    name: 'Chelsey Dietrich',
-    username: 'Kamren',
-    email: 'Lucio_Hettinger@annie.ca',
-    address: {
-      street: 'Skiles Walks',
-      suite: 'Suite 351',
-      city: 'Roscoeview',
-      zipcode: '33263',
-      geo: {
-        lat: '-31.8129',
-        lng: '62.5342',
-      },
-    },
-    phone: '(254)954-1289',
-    website: 'demarco.info',
-    company: {
-      name: 'Keebler LLC',
-      catchPhrase: 'User-centric fault-tolerant solution',
-      bs: 'revolutionize end-to-end systems',
-    },
-  },
-  {
-    id: 6,
-    name: 'Mrs. Dennis Schulist',
-    username: 'Leopoldo_Corkery',
-    email: 'Karley_Dach@jasper.info',
-    address: {
-      street: 'Norberto Crossing',
-      suite: 'Apt. 950',
-      city: 'South Christy',
-      zipcode: '23505-1337',
-      geo: {
-        lat: '-71.4197',
-        lng: '71.7478',
-      },
-    },
-    phone: '1-477-935-8478 x6430',
-    website: 'ola.org',
-    company: {
-      name: 'Considine-Lockman',
-      catchPhrase: 'Synchronised bottom-line interface',
-      bs: 'e-enable innovative applications',
-    },
-  },
-  {
-    id: 7,
-    name: 'Kurtis Weissnat',
-    username: 'Elwyn.Skiles',
-    email: 'Telly.Hoeger@billy.biz',
-    address: {
-      street: 'Rex Trail',
-      suite: 'Suite 280',
-      city: 'Howemouth',
-      zipcode: '58804-1099',
-      geo: {
-        lat: '24.8918',
-        lng: '21.8984',
-      },
-    },
-    phone: '210.067.6132',
-    website: 'elvis.io',
-    company: {
-      name: 'Johns Group',
-      catchPhrase: 'Configurable multimedia task-force',
-      bs: 'generate enterprise e-tailers',
-    },
-  },
-  {
-    id: 8,
+    testID: 'nicholas',
     name: 'Nicholas Runolfsdottir V',
     username: 'Maxime_Nienow',
     email: 'Sherwood@rosamond.me',
