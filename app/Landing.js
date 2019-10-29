@@ -2,6 +2,13 @@ import React from 'react'
 import { View, SafeAreaView, StyleSheet, TouchableOpacity } from 'react-native'
 import { Button, Text, Card, Icon } from 'react-native-elements'
 
+const bg = {
+  one: '#dcffcc',
+  two: '#9fdfcd',
+  three: '#baabda',
+  four: '#d79abc',
+}
+
 const NavigationButton = ({ onPress, title, backgroundColor }) => (
   <TouchableOpacity
     onPress={onPress}
@@ -14,13 +21,6 @@ const NavigationButton = ({ onPress, title, backgroundColor }) => (
     <Text h1>Gå til {title}</Text>
   </TouchableOpacity>
 )
-
-const bg = {
-  one: '#dcffcc',
-  two: '#9fdfcd',
-  three: '#baabda',
-  four: '#d79abc',
-}
 
 const Landing = ({ navigation }) => {
   return (
