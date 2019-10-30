@@ -2,7 +2,7 @@
 
 Vi skal prøve oss på e2e-testing med hjelp av [Detox](https://github.com/wix/Detox/). Detox er et rammeverk for hjelper oss å teste våre apper i simulator for å faststille at vi ikke ødelagt våre apper under utvikling.
 
-Starte ved å klone dette [repoet](https://github.com/hkwaller/detox).
+Starte ved å klone dette repoet.
 
 Da er vi klare å sette igang.
 
